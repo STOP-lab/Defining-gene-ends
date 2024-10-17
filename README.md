@@ -15,22 +15,22 @@ This repository contains code used for the analyses in the paper 'Defining gene 
 First, we selected genes that:
 - are protein-coding,
 - do not have any annotated trasncript on the same strand,
-- their 3' end is isolated from a downstream neighbor at least 6kb
-(see [`select-pc-genes.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/select-pc-genes.R)).
+- their 3' end is isolated from a downstream neighbor at least 6kb.   
+(see [`select-pc-genes.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/select-pc-genes.R))
 
-To define termination windows follow [`definition-of-windows.sh`](https://github.com/STOP-lab/T4ph-review/blob/main/workflows/windows-definition.sh).
-All needed Rscripts are [here](https://github.com/STOP-lab/T4ph-review/tree/main/Rscripts).
+To define termination windows follow [`definition-of-windows.sh`](https://github.com/STOP-lab/T4ph-review/blob/main/workflows/windows-definition.sh).   
+All needed Rscripts are [here](https://github.com/STOP-lab/T4ph-review/tree/main/Rscripts).   
 
 ## Metaplots
 
-All metaplots were plotted using [deeptools](https://deeptools.readthedocs.io/en/develop/). 
-To plot T4ph ChIP-seq metaplots follow [`metaplots-t4ph-chip.sh`](https://github.com/STOP-lab/T4ph-review/blob/main/workflows/metaplots-t4ph-chip.sh).
-To plot nascent RNA signal over genes/termination windows follow [`metaplots-nascentRNA.sh`](https://github.com/STOP-lab/T4ph-review/blob/).
+All metaplots were plotted using [deeptools](https://deeptools.readthedocs.io/en/develop/).     
+To plot T4ph ChIP-seq metaplots follow [`metaplots-t4ph-chip.sh`](https://github.com/STOP-lab/T4ph-review/blob/main/workflows/metaplots-t4ph-chip.sh).    
+To plot nascent RNA signal over genes/termination windows follow [`metaplots-nascentRNA.sh`](https://github.com/STOP-lab/T4ph-review/blob/).    
 
 ## Other analyses 
 
-To calculate PAS/TSS ratio of Pol II modifications follow [`ratio_pas_tss_modifications.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/ratio_pas_tss_modifications.R).
-To plot average T4ph mNET-seq signal based on genes activity follow [`t4_gene_activity_boxplot.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/t4_gene_activity_boxplot.R).
+To calculate PAS/TSS ratio of Pol II modifications follow [`ratio_pas_tss_modifications.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/ratio_pas_tss_modifications.R).    
+To plot average T4ph mNET-seq signal based on genes activity follow [`t4_gene_activity_boxplot.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/t4_gene_activity_boxplot.R).    
 
 
 
