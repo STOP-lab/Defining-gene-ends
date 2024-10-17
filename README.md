@@ -20,7 +20,9 @@ First, we selected genes that:
 (see [`select-pc-genes.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/select-pc-genes.R))
 
 To define termination windows follow [`definition-of-windows.sh`](https://github.com/STOP-lab/T4ph-review/blob/main/workflows/windows-definition.sh).   
-All needed Rscripts are [here](https://github.com/STOP-lab/T4ph-review/tree/main/Rscripts).   
+All needed Rscripts are [here](https://github.com/STOP-lab/T4ph-review/tree/main/Rscripts).     
+
+We defined premature and gene-end termination windows as described [here](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/premature-gene-end-length.R).
 
 ## Metaplots
 
@@ -32,6 +34,7 @@ To plot nascent RNA signal over genes/termination windows follow [`metaplots-nas
 
 To calculate PAS/TSS ratio of Pol II modifications follow [`ratio_pas_tss_modifications.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/ratio_pas_tss_modifications.R).    
 To plot average T4ph mNET-seq signal based on genes activity follow [`t4_gene_activity_boxplot.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/t4_gene_activity_boxplot.R).    
+To plot termination windows length follow [`premature-gene-end-length.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/premature-gene-end-length.R).      
 
 
 
