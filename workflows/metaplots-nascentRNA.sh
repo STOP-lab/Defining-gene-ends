@@ -26,12 +26,12 @@ plotProfile -m ${matrix} -out ${output} --outFileNameData ${plotData} --plotTitl
 # 2. Open .tab file and find the max value for each bigwig (did it manually in the spreadsheet)
 
 # 3. Calculate the scaling factor = 1/max
-#					max			1/max
+#					max		1/max
 #POINT-seq			38.1162148	0.02623555
 #TT-seq				19.8261267	0.0504385
 #PRO-seq 			15.1559241	0.0659808
-#Total Pol mNET-seq	1.76232479	0.56743229
-#T4ph mNET-seq		0.54521299	1.8341456
+#Total Pol mNET-seq	  1.76232479	  0.56743229
+#T4ph mNET-seq		  0.54521299	  1.8341456
 
 # 4. Use multiply_bigwig_by_given_number.R Rscript to get scaled bigwigs, eg:
 
