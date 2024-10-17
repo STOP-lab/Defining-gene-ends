@@ -13,12 +13,12 @@ This repository contains code used for the analyses in the paper 'Defining gene 
 ## Termination windows definition
 
 First, we selected genes that:
-- are protein-coding
-- do not have any annotated trasncript on the same strand
-- their 3' end is isolated from a downstream neighbor at least 6kb
-(see [`select-pc-genes.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/select-pc-genes.R)
+- are protein-coding,
+- do not have any annotated trasncript on the same strand,
+- their 3' end is isolated from a downstream neighbor at least 6kb.
+(see [`select-pc-genes.R`](https://github.com/STOP-lab/T4ph-review/blob/main/Rscripts/select-pc-genes.R))
 
 To define termination windows follow [`definition-of-windows.sh`](https://github.com/STOP-lab/T4ph-review/blob/main/workflows/windows-definition.sh).
-
+All needed Rscripts are [here](https://github.com/STOP-lab/T4ph-review/tree/main/Rscripts).
 
 
