@@ -8,6 +8,7 @@ This repository contains code used for the analyses in the paper 'Defining gene 
  - [wiggletools](https://github.com/Ensembl/WiggleTools)
  - [macs2](https://hbctraining.github.io/Intro-to-ChIPseq/lessons/05_peak_calling_macs.html)
  - [deeptools](https://deeptools.readthedocs.io/en/develop/)
+ - [kentUtils](https://github.com/ENCODE-DCC/kentUtils)
 
 
 ## Termination windows definition
