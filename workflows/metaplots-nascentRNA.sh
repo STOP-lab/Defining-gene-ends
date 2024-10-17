@@ -1,4 +1,4 @@
-# 1. Plot nascent RNA files over genes (lifted to hg38 by CrossMap.py)
+# 1. Plot nascent RNA signal over genes (lifted to hg38 by CrossMap.py)
 
 bigwig1="/dysk2/groupFolders/magdak/t4-review/nascent-RNA/scaled/GSM4826609_F_POINTseq_HeLa_Untr_Rep2.bw"
 bigwig2="/dysk2/groupFolders/magdak/t4-review/nascent-RNA/scaled/GSM7119959_L_EGFP_rep1_tt_corr_ff_noJncReads_plus.bw"
