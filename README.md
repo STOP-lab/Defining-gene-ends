@@ -28,7 +28,7 @@ We defined premature and gene-end termination windows as described [here](https:
 
 All metaplots were plotted using [deeptools](https://deeptools.readthedocs.io/en/develop/).     
 To plot T4ph ChIP-seq metaplots follow [`metaplots-t4ph-chip.sh`](https://github.com/STOP-lab/T4ph-review/blob/main/workflows/metaplots-t4ph-chip.sh).    
-To plot nascent RNA signal over genes/termination windows follow [`metaplots-nascentRNA.sh`](https://github.com/STOP-lab/T4ph-review/blob/).    
+To plot nascent RNA signal over genes/termination windows follow [`metaplots-nascentRNA.sh`](https://github.com/STOP-lab/T4ph-review/blob/main/workflows/metaplots-nascentRNA.sh).    
 
 ## Other analyses 
 
