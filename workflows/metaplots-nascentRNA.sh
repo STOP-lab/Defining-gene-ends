@@ -63,3 +63,20 @@ plotProfile -m ${matrix} -out ${output} --outFileNameData ${outdata} --plotTitle
 
 # 6. The same workflow was used to plot profiles over gene-end and premature termination windows. To plot Pol II modifications instead of plotProfile, plotHeatmap function was used. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
